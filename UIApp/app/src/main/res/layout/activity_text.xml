@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <!--
+    scrollview里只能放一个子控件
+    android:singleLine="true" 单行
+    android:ellipsize="middle" 省略号位置
+
+    跑马灯效果：
+    android:ellipsize="marquee"
+    android:focusable="true" 获得焦点
+    android:focusableInTouchMode="true"触摸时获得焦点
+    android:marqueeRepeatLimit="marquee_forever"重复次数
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/long_txt"
+        android:textSize="10sp"
+        android:lineSpacingExtra="8sp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/long_txt"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"/>
+
+</LinearLayout>
