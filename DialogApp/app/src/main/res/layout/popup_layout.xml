@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#00ffff"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/choose"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="选择"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#000000"/>
+
+    <TextView
+        android:id="@+id/choose_all"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="全选"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#000000"
+        android:layout_marginLeft="1dp"/>
+
+    <TextView
+        android:id="@+id/copy"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="复制"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#000000"
+        android:layout_marginLeft="1dp"/>
+
+
+</LinearLayout>
