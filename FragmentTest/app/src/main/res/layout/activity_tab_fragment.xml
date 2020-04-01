@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TabFragmentActivity">
+
+    <!--加载不同fragment-->
+    <FrameLayout
+        android:id="@+id/tab_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+    </FrameLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#515151" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_index"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_index"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_channel"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_channel"
+            android:text="分类" />
+
+        <RadioButton
+            android:id="@+id/rb_list"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_list"
+            android:text="学习" />
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_me"
+            android:text="我" />
+        <!--selector选择器-->
+    </RadioGroup>
+
+</LinearLayout>
