@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/qq_img"
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:src="@mipmap/caocao"/>
+
+    <TextView
+        android:id="@+id/qq_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/qq_img"
+        android:textSize="26sp"
+        android:layout_margin="6dp"
+        android:text="曹操"/>
+
+
+    <TextView
+        android:id="@+id/qq_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/qq_img"
+        android:layout_below="@id/qq_name"
+        android:layout_marginLeft="6dp"
+        android:text="测试数据"/>
+
+</RelativeLayout>
