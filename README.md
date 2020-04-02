@@ -21,3 +21,6 @@
   * SimpleAdapter
   * BaseAdapter
   * ListView优化（使用ViewHolder）
+* [ViewPager实例——广告图的无限轮播实现](ViewPagerApp/)
+  * 实现魅族Banner效果的显示效果。
+  * 实现无限轮播效果。

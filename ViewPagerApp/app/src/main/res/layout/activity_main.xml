@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <!--clipChildren 默认值为true，子view只能在父View规定的范围之内。
+     设置为false，然后设置ViewPager左右边距。则左右空出一定区域，利用`clipChildren` 属性，
+     就能让前后页面的部分显示在当前页了。
+ -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/pagers"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="180dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:layout_marginRight="30dp"-->
+        <!--app:layout_constraintTop_toTopOf="parent">-->
+
+    <com.zch.viewpagerapp.MyViewPager
+        android:id="@+id/pagers"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:svp_minScale="0.85" />
+
+
+</LinearLayout>
