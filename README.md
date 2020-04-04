@@ -27,3 +27,6 @@
 * [Android网络编程](NetworkApp/)
   * Get请求，Post请求
   * 对Json数据格式的解析：JSONObject解析、GSON解析
+* [Android消息处理机制——Handler](HandlerApp/)
+  * Handler运行机制，Message消息队列,  Looper消息循环
+  * [一个使用Handler运行机制的简单计时器应用](TimeApp/)
