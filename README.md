@@ -31,3 +31,7 @@
   * Handler运行机制，Message消息队列,  Looper消息循环
   * [一个使用Handler运行机制的简单计时器应用](TimeApp/)
   * [请求网络图片功能的小应用](ImageApp/)
+* [AsyncTask异步处理](HandlerApp/)
+  * 下载任务处理
+  * Android6.0后运行时权限处理
+

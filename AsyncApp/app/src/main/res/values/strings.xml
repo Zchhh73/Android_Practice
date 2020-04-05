@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AsyncApp</string>
+    <string name="click_download">点击下载</string>
+    <string name="downl_txt">准备下载</string>
+    <string name="downloading">下载中</string>
+</resources>
