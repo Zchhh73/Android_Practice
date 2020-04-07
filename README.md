@@ -26,7 +26,6 @@
   * 实现无限轮播效果。
 * [卡片布局](Cardapp/)
 * [Android网络编程](NetworkApp/)
-  
   * Get请求，Post请求
   * 对Json数据格式的解析：JSONObject解析、GSON解析
 * [Android消息处理机制——Handler](HandlerApp/)
@@ -36,6 +35,9 @@
 * [AsyncTask异步处理](HandlerApp/)
   * 下载任务处理
   * Android6.0后运行时权限处理
-  
+* [Android数据存储](DataStoreApp/)
+  * SharePreferences获取登录信息
+  * 外部存储（6.0后动态申请权限）
+  * 内部存储
   
 
