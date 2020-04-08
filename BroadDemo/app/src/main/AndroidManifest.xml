@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zch.broaddemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".MyBroadcastReceiver">
+
+<!--            <intent-filter>-->
+<!--                &lt;!&ndash;开机广播&ndash;&gt;-->
+<!--                <action android:name="android.intent.action.BOOT_COMPLETED" />-->
+<!--                &lt;!&ndash;电量低广播&ndash;&gt;-->
+<!--                <action android:name="android.intent.action.BATTERY_LOW" />-->
+<!--                &lt;!&ndash;应用被安装广播&ndash;&gt;-->
+<!--                <action android:name="android.intent.action.PACKAGE_INSTALL" />-->
+
+<!--                &lt;!&ndash;应用被卸载广播&ndash;&gt;-->
+<!--                <action android:name="android.intent.action.PACKAGE_REMOVED" />-->
+<!--                &lt;!&ndash;数据类型&ndash;&gt;-->
+<!--                <data android:scheme="package" />-->
+
+
+<!--            </intent-filter>-->
+
+        </receiver>
+
+
+    </application>
+
+</manifest>
