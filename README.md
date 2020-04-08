@@ -40,5 +40,8 @@
   * 外部存储（6.0后动态申请权限）
   * 内部存储
   * [SQLite数据库——学生管理App应用](StudentAppp/)
-  
+* [综合案例——课程推荐App](CourseApp/) 
+  * ExpandListView的使用
+  * AsyncTask异步请求网络操作的封装
+  * SQLite数据库操作的封装
 
