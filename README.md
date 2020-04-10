@@ -50,3 +50,7 @@
   * Get、Post、PostMultiPart、PostJson的实现
   * 自定义Header添加
   * Retrofit工具类的封装
+* [App内部通讯组件—EventBus](EventBusApp/) 
+  * EventBus实现事件发布：事件、订阅、发布。
+  * ThreadMode：POSTING、MAIN、MAINORDERED、BACKGROUND、ASYNC
+  * 粘性事件：可以先发布后订阅。
