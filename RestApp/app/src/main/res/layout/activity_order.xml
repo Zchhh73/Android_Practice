@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.OrderActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="#FE9400">
+        
+        <ImageView
+            android:id="@+id/id_iv_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon"/>
+
+        <TextView
+            android:id="@+id/id_tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:layout_below="@id/id_iv_icon"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/id_btn_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="16dp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="点餐"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_bg_orange"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="8dp"
+            android:padding="8dp"/>
+
+
+        <Button
+            android:id="@+id/id_btn_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="16dp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="注销"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_bg_orange"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="8dp"
+            android:padding="8dp"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="我的订单"
+    android:background="#f3f5f7"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    />
+
+
+
+    <com.zch.restapp.ui.view.refresh.SwipeRefreshLayout
+        android:id="@+id/id_swiperefresh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/id_recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </com.zch.restapp.ui.view.refresh.SwipeRefreshLayout>
+
+
+
+
+</LinearLayout>

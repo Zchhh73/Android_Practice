@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f3f5f7"
+    tools:context=".ui.activity.RegisterActivity">
+
+    <include layout="@layout/common_toolbar"/>
+
+    <EditText
+        android:id="@+id/id_et_reg_username"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:background="#ffffff"
+        android:inputType="text"
+        android:hint="请输入用户名"
+        android:paddingLeft="8dp"
+        android:textColorHint="#000000"
+        />
+    <EditText
+        android:id="@+id/id_et_reg_password"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:background="#ffffff"
+        android:inputType="textWebPassword"
+        android:hint="请输入密码"
+        android:paddingLeft="8dp"
+        android:textColorHint="#000000"
+        />
+    
+    <EditText
+        android:id="@+id/id_et_reg_repassword"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:background="#ffffff"
+        android:inputType="textWebPassword"
+        android:hint="重复输入密码"
+        android:paddingLeft="8dp"
+        android:textColorHint="#000000"
+        />
+
+    <Button
+        android:id="@+id/id_btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/button_large_black"
+        android:text="提交"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
