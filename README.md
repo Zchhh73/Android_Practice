@@ -13,6 +13,7 @@
   * PopupWindow
 * [四大组件之Activity](ActivityLife/)
 * [四大组件之Service](ServiceSolution/)
+  * [实现AIDL跨进程监督进度条—进程间通信IPC](AIDLApp/)
 * [四大组件之BroadCast](BroadcastTest/)
   * [系统广播,自定义广播](BroadDemo/)
 * [四大组件之ContentProvider](myContentProvider/)
