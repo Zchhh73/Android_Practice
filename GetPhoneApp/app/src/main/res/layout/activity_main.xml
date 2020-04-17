@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/sms_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="访问短信息"/>
+
+    <Button
+        android:id="@+id/read_contact_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读联系人"/>
+
+
+    <Button
+        android:id="@+id/add_contact_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加联系人"/>
+
+
+
+</LinearLayout>
