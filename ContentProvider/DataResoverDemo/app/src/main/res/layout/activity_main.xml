@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="5dp">
+
+    <EditText
+        android:id="@+id/name_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="姓名:"
+        android:layout_marginTop="8dp"
+        />
+
+    <EditText
+        android:id="@+id/age_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="年龄："
+        android:layout_marginTop="8dp"
+        android:numeric="integer"
+        />
+
+    <RadioGroup
+        android:id="@+id/gender_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别："
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:textSize="18sp"/>
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/id_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="编号:"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/insert_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="添加"
+            android:onClick="myClick"/>
+        <Button
+            android:id="@+id/select_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="查询"
+            android:onClick="myClick"/>
+        <Button
+            android:id="@+id/delete_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="删除"
+            android:onClick="myClick"/>
+        <Button
+            android:id="@+id/update_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="修改"
+            android:onClick="myClick"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/matcher_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="利用Matcher解析uri"
+        android:onClick="myClick"/>
+
+    <Button
+        android:id="@+id/uri_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uri自带解析方法解析"
+        android:onClick="myClick"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/stu_list"/>
+
+
+
+
+</LinearLayout>
