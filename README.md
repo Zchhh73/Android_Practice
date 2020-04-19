@@ -35,6 +35,10 @@
 * [Android网络编程](NetworkApp/)
   * Get请求，Post请求
   * 对Json数据格式的解析：JSONObject解析、GSON解析
+  * [Socket编程](UdpApp/)
+    * UDP通信—Client与Server通信
+    * TCP通信—简易聊天室（使用消息队列，多线程处理..）
+    * Http与Https—访问页面（Https中:证书验证，域名验证，正确访问Https页面，X509Certificate....）
 * [Android消息处理机制——Handler](HandlerApp/)
   * Handler运行机制，Message消息队列,  Looper消息循环
   * [一个使用Handler运行机制的简单计时器应用](TimeApp/)
