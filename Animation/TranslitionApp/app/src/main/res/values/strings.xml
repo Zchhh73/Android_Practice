@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TranslitionApp</string>
+
+    <string name="title">长白山脉</string>
+    <string name="address">吉林省东南部地区</string>
+    <string name="info">长白山脉是松花江、图们江和鸭绿江的发源地。是中国满族的发祥地和满族文化圣山。
+        长白山脉区域总面积1964平方千米，核心区758平方千米，长白山系的最高峰是朝鲜境内的将军峰，海拔2749米。
+        中国境内最高峰白云峰，海拔2691米，是中国东北的最高峰。狭义的长白山位于吉林省东南部长白山脉的主峰。
+        广义的长白山是中国辽宁、吉林、黑龙江三省东部山地以及俄罗斯远东和朝鲜半岛诸多余脉的总称。
+        长白山在生态、生物、地质和历史等诸多方面都具有突出的普遍价值和卓越的自然品质以及丰富的文化内涵。
+    </string>
+    <string name="pic" translatable="false">pic</string>
+    <string name="icon" translatable="false">icon</string>
+</resources>

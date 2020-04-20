@@ -66,4 +66,11 @@
   * ThreadMode：POSTING、MAIN、MAINORDERED、BACKGROUND、ASYNC
   * 粘性事件：可以先发布后订阅。
 * [Android加载图片库——Glide](LoadImageApp/) 
-* [下饭食堂——点餐App](RestApp/) 
+* [项目实例——下饭食堂点餐App](RestApp/) 
+* [Android动画](Animation/) 
+  *  [Android基本动画](Animation/AnimationApp/) 
+    *  逐帧动画
+    *  视图动画
+    *  属性动画
+  *  [Android转场动画](Animation/TranslitionApp/) 
+    *  Scene，Transition，TransitionManger使用  

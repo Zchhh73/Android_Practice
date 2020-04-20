@@ -1,0 +1,2 @@
+rootProject.name='TranslitionApp'
+include ':app'

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ViewActivity">
+
+    <LinearLayout
+        android:background="@drawable/edge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/viewAccelerate"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:layout_margin="8dp"
+            android:onClick="myClick"
+            />
+
+        <View
+            android:id="@+id/viewLinear"
+            android:alpha="0.5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:layout_margin="8dp"
+            android:onClick="myClick"
+            />
+
+        <TextView
+            android:id="@+id/view_alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myClick"
+            android:text="alpha"
+            style="@style/AnimationTextView" />
+
+        <TextView
+            android:id="@+id/view_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="myClick"
+            android:layout_marginTop="8dp"
+            android:text="scale"
+            style="@style/AnimationTextView" />
+
+        <TextView
+            android:id="@+id/view_translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myClick"
+            android:layout_marginTop="8dp"
+            android:text="translate"
+            style="@style/AnimationTextView" />
+
+        <TextView
+            android:id="@+id/view_rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myClick"
+            android:layout_marginTop="8dp"
+            android:text="rotate"
+            android:layout_gravity="center_horizontal"
+            style="@style/AnimationTextView" />
+
+        <TextView
+            android:id="@+id/view_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myClick"
+            android:layout_marginTop="8dp"
+            android:text="Set"
+            style="@style/AnimationTextView" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+        
+
+    </LinearLayout>
+
+</ScrollView>

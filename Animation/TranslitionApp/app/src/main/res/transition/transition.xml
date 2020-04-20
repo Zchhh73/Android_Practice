@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <changeImageTransform android:duration="3000">
+        <targets android:targetId="@id/image"/>
+    </changeImageTransform>
+
+    <fade
+        android:duration="3000"
+        android:startDelay="1000">
+    </fade>
+
+
+</transitionSet>
