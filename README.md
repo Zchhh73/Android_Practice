@@ -1,16 +1,6 @@
 # Android_Practice
 
-* [Android界面及控件的布局设计](UIApp/)
 * [Android登录模式](LaunchMode/)
-* [一个简单的点餐App](Wm_app/)
-* [三种菜单的创建](Wm_app/)
-  * 选项菜单(OptionMenu)
-  * 上下文菜单(ContextMenu)
-  * 弹出式菜单(PopuppMenu)
-* [三种对话框的创建](DialogApp/)
-  * AlertDialog
-  * 自定义Dialog
-  * PopupWindow
 * [四大组件之Activity](ActivityLife/)
 * [四大组件之Service](ServiceSolution/)
   * [Service后台监测进度](ServiceApp/)
@@ -21,17 +11,6 @@
   * [跨进程数据传输——ContentProvider实例](ContentProvider/)
   * [联系人读取和添加——获取系统ContentProvider](GetPhoneApp/)
 * [Fragment创建及使用](FragmentTest/)
-* 高级控件的使用
-    * [ListView的使用](ListViewApp/)
-      * ArrayAdapter
-      * SimpleAdapter
-      * BaseAdapter
-      * ListView优化（使用ViewHolder）
-    * [ViewPager实例——广告图的无限轮播实现](ViewPagerApp/)
-      * 实现魅族Banner效果的显示效果。
-      * 实现无限轮播效果。
-    * [卡片布局](Cardapp/)
-    * [RecyclerView布局实现](RecyclerViewApp/)
 * [Android网络编程](NetworkApp/)
   * Get请求，Post请求
   * 对Json数据格式的解析：JSONObject解析、GSON解析
@@ -73,4 +52,19 @@
     *  视图动画
     *  属性动画
   *  [Android转场动画](Animation/TranslitionApp/) 
-    *  Scene，Transition，TransitionManger使用  
+    *  Scene，Transition，TransitionManger使用    
+* **Android—View事件体系**
+  *  [Android界面及简单控件的布局设计](View/UIApp/)
+    *  [一个简单的点餐App](View/Wm_app/)
+      *  三种菜单的创建：选项菜单(OptionMenu)、上下文菜单(ContextMenu)、弹出式菜单(PopupMenu)
+    * [三种对话框的创建](View/DialogApp/)
+      * AlertDialog、自定义Dialog、PopupWindow
+  *  **高级控件**
+    * [ListView的使用](View/ListViewApp/)
+      * ArrayAdapter、SimpleAdapter、BaseAdapter
+      * ListView优化（使用ViewHolder）  
+    * [ViewPager实例——广告图的无限轮播实现](View/ViewPagerApp/)
+      * 实现魅族Banner效果的显示效果。
+      * 实现无限轮播效果。
+    * [卡片布局](View/Cardapp/)
+    * [RecyclerView布局实现](View/RecyclerViewApp/)
