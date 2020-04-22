@@ -74,3 +74,5 @@
      * 状态的保存与恢复 
   *  [Android事件分发机制](View/TouchSystemApp/)
      * Activity、ViewGroup拦截、View 
+  *  [SurfaceView学习—飞翔的小鸟小游戏](View/BirdGameApp/)
+     *  使用创建的SurfaceHolder对象监听Surface的创建，再开启子线程，在线程中使用循环处理获取Canvas进行绘制。
