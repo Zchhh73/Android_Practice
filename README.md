@@ -53,13 +53,12 @@
     *  属性动画
   *  [Android转场动画](Animation/TranslitionApp/) 
     *  Scene，Transition，TransitionManger使用    
-* **Android—View事件体系**
-  *  [Android界面及简单控件的布局设计](View/UIApp/)
-    *  [一个简单的点餐App](View/Wm_app/)
-       * 三种菜单的创建：选项菜单(OptionMenu)、上下文菜单(ContextMenu)、弹出式菜单(PopupMenu)
+* Android—View事件体系
+  * [Android界面及简单控件的布局设计](View/UIApp/)
+    * [一个简单的点餐App](View/Wm_app/)：三种菜单的创建：选项菜单(OptionMenu)、上下文菜单(ContextMenu)、弹出式菜单(PopupMenu)
     * [三种对话框的创建](View/DialogApp/)
-       * AlertDialog、自定义Dialog、PopupWindow
-  *  **高级控件**
+      * AlertDialog、自定义Dialog、PopupWindow
+  * 高级控件
     * [ListView的使用](View/ListViewApp/)
       * ArrayAdapter、SimpleAdapter、BaseAdapter
       * ListView优化（使用ViewHolder）  
