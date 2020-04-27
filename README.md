@@ -5,6 +5,7 @@
 * [四大组件之Service](ServiceSolution/)
   * [Service后台监测进度](ServiceApp/)
   * [AIDL跨进程监督进度条—进程间通信IPC](AIDLApp/)
+  * [AIDL实现—服务端主动发送返回数据](SimpleAIDL/)
 * [四大组件之BroadCast](BroadcastTest/)
   * [系统广播,自定义广播](BroadDemo/)
 * [四大组件之ContentProvider](myContentProvider/)
