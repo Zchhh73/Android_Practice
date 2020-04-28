@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <ImageView
+        android:id="@+id/icon_imageview"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_picture_as_pdf_black_48dp"
+        android:layout_margin="5dp"
+        android:tint="#ff0000"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_bookname"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="6dp"
+        android:layout_toEndOf="@+id/icon_imageview"
+        android:layout_toStartOf="@+id/btn_bookitem"
+        android:maxLines="1"/>
+    
+    <Button
+        android:id="@+id/btn_bookitem"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/app_name"
+        />
+
+</RelativeLayout>

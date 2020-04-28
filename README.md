@@ -46,7 +46,6 @@
   * ThreadMode：POSTING、MAIN、MAINORDERED、BACKGROUND、ASYNC
   * 粘性事件：可以先发布后订阅。
 * [Android加载图片库——Glide](LoadImageApp/) 
-* [项目实例——下饭食堂点餐App](RestApp/) 
 * [Android动画](Animation/) 
   *  [Android基本动画](Animation/AnimationApp/) 
     *  逐帧动画
@@ -77,3 +76,5 @@
      * Activity、ViewGroup拦截、View 
   *  [SurfaceView学习—飞翔的小鸟小游戏](View/BirdGameApp/)
      *  使用创建的SurfaceHolder对象监听Surface的创建，再开启子线程，在线程中使用循环处理获取Canvas进行绘制。
+* [项目实例——下饭食堂点餐App](RestApp/) 
+* [项目实例——电子书阅读器App](BookReader/) 
