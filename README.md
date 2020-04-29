@@ -32,10 +32,7 @@
   * 内部存储
   * [SQLite数据库——学生管理App应用](StudentAppp/)
   * [商品存储app——使用GreenDao](StoreApp/)
-* [综合案例——课程推荐App](CourseApp/) 
-  * ExpandListView的使用
-  * AsyncTask异步请求网络操作的封装
-  * SQLite数据库操作的封装
+
 * [OkHttp&Retrofit](OkhttpApp/) 
   * OkHttp工具类的封装
   * Get、Post、PostMultiPart、PostJson的实现
@@ -76,5 +73,10 @@
      * Activity、ViewGroup拦截、View 
   *  [SurfaceView学习—飞翔的小鸟小游戏](View/BirdGameApp/)
      *  使用创建的SurfaceHolder对象监听Surface的创建，再开启子线程，在线程中使用循环处理获取Canvas进行绘制。
+* [自动注入神器——ButterKnife](ButterApp/)
+* [综合案例——课程推荐App](CourseApp/) 
+  * ExpandListView的使用
+  * AsyncTask异步请求网络操作的封装
+  * SQLite数据库操作的封装
 * [项目实例——下饭食堂点餐App](RestApp/) 
 * [项目实例——电子书阅读器App](BookReader/) 

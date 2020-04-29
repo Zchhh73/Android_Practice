@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ButterApp</string>
+    <string name="helloworld">Hello World!</string>
+</resources>
