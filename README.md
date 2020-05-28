@@ -32,7 +32,6 @@
   * 内部存储
   * [SQLite数据库——学生管理App应用](StudentAppp/)
   * [商品存储app——使用GreenDao](StoreApp/)
-
 * [OkHttp&Retrofit](OkhttpApp/) 
   * OkHttp工具类的封装
   * Get、Post、PostMultiPart、PostJson的实现
@@ -80,3 +79,6 @@
   * SQLite数据库操作的封装
 * [项目实例——下饭食堂点餐App](RestApp/) 
 * [项目实例——电子书阅读器App](BookReader/) 
+* [项目实例——饭后计步器](stepApp/) 
+    * 绑定式服务的应用、AIDL通信
+    * 自定义圆形进度条

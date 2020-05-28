@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">stepApp</string>
+
+    <array name="sensitive_array">
+        <item>特别高 1.97</item>
+        <item>非常高 2.96</item>
+        <item>很高 4.44</item>
+        <item>高 6.66</item>
+        <item>中等（推荐） 10.0</item>
+        <item>低 15.0</item>
+        <item>很低 22.50</item>
+        <item>非常低 33.75</item>
+        <item>特别低 50.62</item>
+    </array>
+
+    <array name="interval_array">
+        <item>100 ms</item>
+        <item>200 ms</item>
+        <item>300 ms</item>
+        <item>400 ms</item>
+        <item>500 ms</item>
+        <item>600 ms</item>
+        <item>700 ms</item>
+        <item>800 ms</item>
+    </array>
+
+</resources>

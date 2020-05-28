@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="fontBlue">#FF0099CC</color>
+    <color name="blueBack">#FF0099CC</color>
+    <color name="fontOrange">#FFFB8C21</color>
+    <color name="fontWhite">#FFFFFFFF</color>
+    <color name="fontGray">#FF949494</color>
+    <color name="fontBlack">#FF000000</color>
+    <color name="lightGray">#FFC4C4C4</color>
+    <color name="fontPink">#FFFF69B4</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name = "transparent">#00000000</color>
+</resources>
